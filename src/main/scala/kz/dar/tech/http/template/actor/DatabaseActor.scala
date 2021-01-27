@@ -3,6 +3,7 @@ package kz.dar.tech.http.template.actor
 import akka.Done
 import akka.actor.typed.Behavior
 import akka.actor.typed.scaladsl.Behaviors
+import com.zaxxer.hikari.{HikariConfig, HikariDataSource}
 import kz.dar.tech.http.template.database.Database
 import kz.dar.tech.http.template.model.{AddUserCommand, DeleteUserCommand, EditUserCommand, Summary, UserCommand}
 

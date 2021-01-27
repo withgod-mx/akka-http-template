@@ -26,6 +26,11 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-generic" % circeVersion,
   "io.circe" %% "circe-parser" % circeVersion,
 
+  "com.zaxxer" % "HikariCP" % "3.4.1",
+  "com.typesafe.slick" %% "slick-hikaricp" % "3.3.3",
+
+  "org.postgresql" % "postgresql" % "42.2.18",
+
   "ch.qos.logback" % "logback-classic" % "1.2.3",
   "org.scalatest" %% "scalatest" % "3.2.2" % Test,
   "joda-time" % "joda-time" % "2.10.5")
